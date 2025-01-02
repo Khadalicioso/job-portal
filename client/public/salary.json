@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "title": "Full-Stack Developer",
+    "salary": "Average Salary ₱10,391,095 per year",
+    "status": "Job Openings",
+    "skills": "Skills"
+  },
+  {
+    "id": 2,
+    "title": "Front-End Developer",
+    "salary": "Average Salary ₱7,865,000 per year",
+    "status": "Job Openings",
+    "skills": "Skills"
+  },
+  {
+    "id": 3,
+    "title": "Back-End Developer",
+    "salary": "Average Salary ₱9,171,680 per year",
+    "status": "Job Openings",
+    "skills": "Skills"
+  },
+  {
+    "id": 4,
+    "title": "DevOps Specialist",
+    "salary": "Average Salary ₱6,285,117 per year",
+    "status": "Job Openings",
+    "skills": "Skills"
+  },
+  {
+    "id": 5,
+    "title": "Augmented Reality (AR) Developer",
+    "salary": "Average Salary ₱8,445,002 per year",
+    "status": "Job Openings",
+    "skills": "Skills"
+  },
+  {
+    "id": 6,
+    "title": "Software Engineer",
+    "salary": "Average Salary ₱9,336,225 per year",
+    "status": "Job Openings",
+    "skills": "Skills"
+  },
+  {
+    "id": 7,
+    "title": "Software Developer",
+    "salary": "Average Salary ₱6,191,572 per year",
+    "status": "Job Openings",
+    "skills": "Skills"
+  },
+  {
+    "id": 8,
+    "title": "Big Data Developer",
+    "salary": "Average Salary ₱7,140,940 per year",
+    "status": "Job Openings",
+    "skills": "Skills"
+  },
+  {
+    "id": 9,
+    "title": "Security Engineer",
+    "salary": "Average Salary ₱9,456,773 per year",
+    "status": "Job Openings",
+    "skills": "Skills"
+  }
+]
