@@ -25,30 +25,24 @@ const Salary = ({ handleChange, handleClick }) => {
           <span className="checkmark"></span>All
         </label>
         {/* Input fields for specifying salary ranges */}
-        <InputField
+        {/* <InputField
           handleChange={handleChange}
-          value={30}
-          title="< 300,000"
+          value={25}
+          title="< 25K"
           name="test"
         />
         <InputField
           handleChange={handleChange}
           value={50}
-          title="< 500,000"
+          title="< 50K"
           name="test"
         />
         <InputField
           handleChange={handleChange}
-          value={80}
-          title="< 800,000"
+          value={75}
+          title="< 75K"
           name="test"
-        />
-        <InputField
-          handleChange={handleChange}
-          value={100}
-          title="< 1,000,000"
-          name="test"
-        />
+        /> */}
       </div>
     </div>
   );

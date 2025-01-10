@@ -19,7 +19,7 @@ const Home = () => {
   useEffect(() => {
     // Fetch jobs data from the JSON file on component mount
     setIsLoading(true);
-    fetch("jobs.json")
+    fetch("http://localhost:3000/all-jobs")
       .then((response) => response.json())
       .then((data) => {
         setJobs(data); // Set the fetched jobs to state

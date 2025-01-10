@@ -15,7 +15,7 @@ const NavBar = () => {
   // Array of navigation items with their respective paths and titles
   const navItems = [
     { path: "/", title: "Search" },
-    { path: "/job", title: "Jobs" },
+    { path: "/my-job", title: "My Jobs" },
     { path: "/salary", title: "Salary" },
     { path: "/post-job", title: "Post a Job" },
   ];
@@ -26,7 +26,7 @@ const NavBar = () => {
         {/* Logo and title linking to the home page */}
         <a
           href="/"
-          className="flex items-center gap-2 text-2xl text-black font-extrabold"
+          className="flex items-center gap-2 text-2xl text-black font-black"
         >
           <img src={Logo} alt="Logo" />
           <span>Job Portal</span>
@@ -75,7 +75,7 @@ const NavBar = () => {
       <div
         className={`px-4 bg-[#080808] py-5 rounded-sm ${
           isMenuOpen ? "" : "hidden"
-        }`}
+        } md:hidden`}
       >
         <ul>
           {navItems.map(({ path, title }) => (

@@ -6,7 +6,6 @@ const WorkExperience = ({ handleChange }) => {
     <div>
       <h4 className="text-lg font-medium mb-2">Work Experience</h4>
       <div>
-        {/* Radio button for selecting any work experience option */}
         <label className="sidebar-label-container">
           <input
             type="radio"
@@ -15,22 +14,26 @@ const WorkExperience = ({ handleChange }) => {
             value=""
             onChange={handleChange}
           />
-          <span className="checkmark"></span>Any Experience
+          <span className="checkmark"></span>All
         </label>
-        {/* InputField component for Internship selection */}
-        <InputField
+        {/* <InputField
           handleChange={handleChange}
-          value="Internship"
-          title="Internship"
+          value="Junior"
+          title="Junior"
           name="test"
         />
-        {/* InputField component for Work Remotely selection */}
         <InputField
           handleChange={handleChange}
-          value="Work Remotely"
-          title="Work Remotely"
+          value="Mid-Level"
+          title="Mid-Level"
           name="test"
         />
+        <InputField
+          handleChange={handleChange}
+          value="Senior"
+          title="Senior"
+          name="test"
+        /> */}
       </div>
     </div>
   );

@@ -18,7 +18,7 @@ const Location = ({ handleChange }) => {
           <span className="checkmark"></span>All
         </label>
         {/* Input fields for specific locations with change handler */}
-        <InputField
+        {/* <InputField
           handleChange={handleChange}
           value="Mountain View, California"
           title="Mountain View, California"
@@ -53,7 +53,7 @@ const Location = ({ handleChange }) => {
           value="San Jose, California"
           title="San Jose, California"
           name="test"
-        />
+        /> */}
       </div>
     </div>
   );

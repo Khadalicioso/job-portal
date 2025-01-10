@@ -2,7 +2,7 @@
 
 ## Project Description
 
-This **Job Portal** is a modern web application that allows users to search for job listings, post job opportunities, and manage their applications. Built using the **MERN stack** (MongoDB, Express.js, React, Node.js) and styled with **Tailwind CSS**, this application provides a seamless user experience and a responsive design.
+This job portal is a full-stack web application developed using the MERN stack, comprising MongoDB, Express.js, React.js, and Node.js. It provides a user-friendly platform for job seekers to browse and apply for available positions, while enabling employers to easily post job openings and manage applications. The application leverages the power of React.js for a dynamic and interactive user interface, enhanced by the sleek and modern styling of Tailwind CSS. By utilizing the MERN stack and a robust database like MongoDB, this job portal offers a scalable and efficient solution for connecting job seekers with employers in the digital age.
 
 ---
 

@@ -15,29 +15,26 @@ const EmploymentType = ({ handleChange }) => {
             value=""
             onChange={handleChange}
           />
-          <span className="checkmark"></span>Any Experience
+          <span className="checkmark"></span>All
         </label>
-        {/* InputField component for Full Time employment option */}
-        <InputField
+        {/* <InputField
           handleChange={handleChange}
           value="Full Time"
           title="Full Time"
           name="test"
         />
-        {/* InputField component for Part Time employment option */}
         <InputField
           handleChange={handleChange}
           value="Part Time"
           title="Part Time"
           name="test"
         />
-        {/* InputField component for Project Based employment option */}
         <InputField
           handleChange={handleChange}
           value="Project Based"
           title="Project Based"
           name="test"
-        />
+        /> */}
       </div>
     </div>
   );

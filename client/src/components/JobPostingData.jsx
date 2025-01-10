@@ -32,27 +32,24 @@ const JobPostingData = ({ handleChange }) => {
           />
           <span className="checkmark"></span>All Time
         </label>
-        {/* InputField for the last 24 hours */}
-        <InputField
+        {/* <InputField
           handleChange={handleChange}
           value={twentyFourHourAgoDate}
           title="Last 24 hours"
           name="test"
         />
-        {/* InputField for the last 7 days */}
         <InputField
           handleChange={handleChange}
           value={sevenDaysAgoDate}
           title="Last 7 days"
           name="test"
         />
-        {/* InputField for the last 30 days */}
         <InputField
           handleChange={handleChange}
           value={thirtyDaysAgoDate}
           title="Last 30 days"
           name="test"
-        />
+        /> */}
       </div>
     </div>
   );
